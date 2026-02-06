@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Referência Completa de CSS</title>
+    <meta name="description" content="Guia completo de propriedades CSS com exemplos práticos">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2 {
+            color: #222;
+        }
+
+        section {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        code {
+            color: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background: #1e1e1e;
+            color: #dcdcdc;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Referência de CSS (Cascading Style Sheets)</h1>
+    <p>Guia prático das principais propriedades e conceitos de CSS.</p>
+
+    <section>
+        <h2>1. Seletores CSS</h2>
+        <ul>
+            <li>
+                <strong>Seletor de elemento</strong> – Seleciona todas as tags.
+                <pre><code>p {
+    color: blue;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>Classe (.classe)</strong> – Reutilizável.
+                <pre><code>.botao {
+    background: green;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>ID (#id)</strong> – Único.
+                <pre><code>#menu {
+    width: 200px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>Atributo</strong>
+                <pre><code>input[type="text"] {
+    border: 1px solid #000;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>Pseudo-classes</strong>
+                <pre><code>a:hover {
+    color: red;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>Pseudo-elementos</strong>
+                <pre><code>p::first-letter {
+    font-size: 2em;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Box Model</h2>
+        <ul>
+            <li>
+                <strong>width / height</strong>
+                <pre><code>div {
+    width: 300px;
+    height: 150px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>margin</strong> – Espaço externo.
+                <pre><code>div {
+    margin: 20px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>padding</strong> – Espaço interno.
+                <pre><code>div {
+    padding: 15px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>border</strong>
+                <pre><code>div {
+    border: 2px solid black;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>box-sizing</strong>
+                <pre><code>* {
+    box-sizing: border-box;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Tipografia</h2>
+        <ul>
+            <li>
+                <strong>font-family</strong>
+                <pre><code>body {
+    font-family: Arial, sans-serif;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>font-size</strong>
+                <pre><code>p {
+    font-size: 16px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>font-weight</strong>
+                <pre><code>strong {
+    font-weight: bold;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>line-height</strong>
+                <pre><code>p {
+    line-height: 1.6;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>text-align</strong>
+                <pre><code>h1 {
+    text-align: center;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Cores e Fundos</h2>
+        <ul>
+            <li>
+                <strong>color</strong>
+                <pre><code>p {
+    color: #333;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>background-color</strong>
+                <pre><code>div {
+    background-color: #f0f0f0;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>background-image</strong>
+                <pre><code>body {
+    background-image: url("bg.jpg");
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>opacity</strong>
+                <pre><code>img {
+    opacity: 0.8;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. Layout (Display, Position, Flexbox)</h2>
+        <ul>
+            <li>
+                <strong>display</strong>
+                <pre><code>span {
+    display: block;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>position</strong>
+                <pre><code>.box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>Flexbox</strong>
+                <pre><code>.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>6. Grid Layout</h2>
+        <ul>
+            <li>
+                <strong>CSS Grid</strong>
+                <pre><code>.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>7. Efeitos Visuais</h2>
+        <ul>
+            <li>
+                <strong>border-radius</strong>
+                <pre><code>.card {
+    border-radius: 10px;
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>box-shadow</strong>
+                <pre><code>.card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>transition</strong>
+                <pre><code>button {
+    transition: background 0.3s;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>8. Animações</h2>
+        <ul>
+            <li>
+                <strong>@keyframes</strong>
+                <pre><code>@keyframes mover {
+    from { left: 0; }
+    to { left: 100px; }
+}</code></pre>
+            </li>
+
+            <li>
+                <strong>animation</strong>
+                <pre><code>.box {
+    animation: mover 2s infinite alternate;
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>9. Responsividade</h2>
+        <ul>
+            <li>
+                <strong>Media Queries</strong>
+                <pre><code>@media (max-width: 768px) {
+    body {
+        background: #ddd;
+    }
+}</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Referência CSS baseada no CSS Living Standard.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* ESPAÇAMENTO DO CONTEÚDO DA PÁGINA */
+html {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*  */
+.container {
+    height: 100vh;
+}
+
+/* CABAÇALHO */
+header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* CABEÇALHO COM IMAGEM */
+header img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* DEFINIÇÃO DA FONTE */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5e5e5e;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+   
+}
+
+/* LISTA DO MENU  */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-items: center;
+}
+
+/* ITEM DA LISTA */
+li {
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    margin-left: 20px;
+}
+
+/* EFEITO AO PASSAR O MOUSE */
+a:hover {
+    color: #ffffff;
+    background-color: #2810ff;
+}
