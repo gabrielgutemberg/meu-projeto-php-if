@@ -35,7 +35,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     font-family: 'Roboto', sans-serif;
     color: #303030;
 }
@@ -84,4 +85,8 @@ a {
 a:hover {
     color: #ffffff;
     background-color: #2810ff;
+}
+.imgcarti{
+    width: 200px;
+    height: auto;
 }

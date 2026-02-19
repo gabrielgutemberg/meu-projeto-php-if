@@ -13,7 +13,7 @@
         <!-- LINGUAGEM PHP -->
         <?php
         $curso = "Sistemas";
-        $estudante = "Jonh Smith";
+        $estudante = "Gabriel lucas 1123";
 
         ?>
 
@@ -45,7 +45,15 @@
 
 
     </div>
+    <div>
+        <img src="assets/carticareca.jpg" alt="carti-careca" class="imgcarti">
+        <h2>titulo test h2</h2>
+        <h3>titulo test h3</h3>
+        <h4>titulo test h4</h4>
+        <h5>titulo test h5</h5>
+        <h6>titulo test h6</h6>
 
+    </div>
 </body>
 
 </html>
