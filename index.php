@@ -33,27 +33,25 @@
             <!-- LISTA DESORDENADA -->
             <ul>
                 <li>
-                    <a href="tags.html">Tags HTML</a>
+                    <a href="tags.html">Google</a>
                 </li>
                 <li>
-                    <a href="css.html">CSS</a>
+                    <a href="https://google.com">link test 2</a>
                 </li>
             </ul>
 
         </nav>
-
-
-
-    </div>
-    <div>
+        <div class="carti1">
         <img src="assets/carticareca.jpg" alt="carti-careca" class="imgcarti">
-        <h2>titulo test h2</h2>
+        <h2>testando o h2</h2>
         <h3>titulo test h3</h3>
         <h4>titulo test h4</h4>
         <h5>titulo test h5</h5>
         <h6>titulo test h6</h6>
 
+        </div>
     </div>
+    
 </body>
 
 </html>

@@ -6,6 +6,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -32,7 +33,6 @@ header img {
 
 /* DEFINIÇÃO DA FONTE */
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -86,7 +86,23 @@ a:hover {
     color: #ffffff;
     background-color: #2810ff;
 }
-.imgcarti{
+.imgcarti {
     width: 200px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.carti1 {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #2810ff;
 }
